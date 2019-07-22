@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="aviaSantufeiTEST:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>aviaSantufeiTEST</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="aviasantufei.war">
+      <element id="artifact" artifact-name="aviaSantufeiTEST:war exploded" />
+    </root>
+  </artifact>
+</component>
