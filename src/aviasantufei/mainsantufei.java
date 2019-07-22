@@ -49,9 +49,8 @@ public class mainsantufei {
     private static final String TICKETS_REFUND_BY_ID_CANCEL = AVIA_MAIN + "/api/v1/tickets/refund/";
     private static final String TICKETS_REFUND_BY_ID_CANCEL_CONFIRM = AVIA_MAIN + "/api/v1/tickets/refund/";
     private static final String TICKETS_GET_BRANDED_FARES = AVIA_MAIN + "/api/v1/tickets/get_branded_fares/";
-
     private static final String token = "39c6c2440fcd0d4ece703a91f63d7540fbe71f74";
-    
+
     @GET
     @Path("/cities")
     @Produces(MediaType.APPLICATION_JSON)
