@@ -51,15 +51,11 @@ public class mainsantufei {
     private static final String TICKETS_GET_BRANDED_FARES = AVIA_MAIN + "/api/v1/tickets/get_branded_fares/";
 
     private static final String token = "39c6c2440fcd0d4ece703a91f63d7540fbe71f74";
-
-    private static final String helloWorld = "Hello World";
-
+    
     @GET
     @Path("/cities")
     @Produces(MediaType.APPLICATION_JSON)
     public Response CityList(@QueryParam("page") String pages, InputStream incomingData) {
-
-        System.out.println(helloWorld);
 
         String settokenresult = "";
         String responseCode = "";
