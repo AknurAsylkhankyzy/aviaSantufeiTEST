@@ -58,6 +58,9 @@ public class mainsantufei {
     @Path("/cities")
     @Produces(MediaType.APPLICATION_JSON)
     public Response CityList(@QueryParam("page") String pages, InputStream incomingData) {
+
+        System.out.println(helloWorld);
+
         String settokenresult = "";
         String responseCode = "";
         try {
